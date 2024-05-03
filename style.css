@@ -1,0 +1,49 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: cursive;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  margin-top: 130px;
+  max-width: 600px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+}
+img {
+  border: none;
+  border-radius: 50%;
+}
+h2 {
+  color: white;
+}
+.location {
+  color: limegreen;
+  font-size: 16px;
+  font-weight: 600;
+}
+.brief {
+  font-weight: 600;
+  color: white;
+}
+.socials {
+  margin: auto;
+  width: 170px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.socials:hover {
+  color: hsl(0, 0%, 20%);
+  background-color: white;
+}
